@@ -1,0 +1,127 @@
+* {
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+.row{
+  display: flex;
+  width: 100%;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  width: 100%;
+  margin-right: 3%;
+}
+/* top half */
+
+#top {
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+hr {
+  border: 2px solid black;
+  margin-left: 15%;
+}
+
+.name {
+  float: right;
+  display: flex;
+}
+
+#master{
+  font-size: 40px;
+  font-weight: lighter;
+  clear: left;
+  width: 100%;
+}
+div.name.col-md-8{
+  width: 100%;
+  text-align: right;
+}
+div.row.name{
+  text-align: right;
+}
+#sub {
+  margin-right: 3%;
+  text-align: right;
+  float: right;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+/* the middle of the page */
+
+#middle {
+  display:flex;
+  width: 100%;
+}
+.ember{
+  width: 100%;
+}
+
+.one {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin-bottom: 10px;
+}
+
+.two {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
+.three {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+
+.imago {
+  max-width: 100%;
+  margin-top: 5px;
+}
+col-md-8{
+  width: 100%;
+}
+
+/* the bottom half of the page */
+
+#bottom {
+  margin-left: 15%;
+  margin-top: 80px;
+  margin-right: 10%;
+}
+
+.work{
+  margin-right: inherit;
+}
+
+.pic{
+  height: 150px;
+  max-width: 100%;
+  margin-right: 5px;
+}
+
+figure{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  margin-top: 60px;
+  border-top: 2px solid black;
+}
