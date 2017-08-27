@@ -6,16 +6,16 @@
 .container {
   display: flex;
 }
-.row{
+.row {
   display: flex;
   width: 100%;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-p{
+p {
   width: 100%;
   margin-right: 3%;
 }
@@ -36,17 +36,17 @@ hr {
   display: flex;
 }
 
-#master{
+#master {
   font-size: 40px;
   font-weight: lighter;
   clear: left;
   width: 100%;
 }
-div.name.col-md-8{
+div.name.col-md-8 {
   width: 100%;
   text-align: right;
 }
-div.row.name{
+div.row.name {
   text-align: right;
 }
 #sub {
@@ -65,7 +65,7 @@ div.row.name{
   display:flex;
   width: 100%;
 }
-.ember{
+.ember {
   width: 100%;
 }
 
@@ -106,22 +106,22 @@ col-md-8{
   margin-right: 10%;
 }
 
-.work{
+.work {
   margin-right: inherit;
 }
 
-.pic{
+.pic {
   height: 150px;
   max-width: 100%;
   margin-right: 5px;
 }
 
-figure{
+figure {
   display: flex;
   flex-wrap: wrap;
 }
 
-footer{
+footer {
   margin-top: 60px;
   border-top: 2px solid black;
 }
